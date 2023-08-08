@@ -5,7 +5,7 @@ import App from './App';
 import theme from './theme';
 import { createContext } from "react";
 
-export const server = "http://localhost:3000/api/v1";
+export const server = "https://todo-api-lsbr.onrender.com/api/v1";
 
 export const Context = createContext({ isAuthenticated: false });
 
